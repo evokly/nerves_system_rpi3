@@ -50,7 +50,7 @@ deploy:
       - "artifacts/$CI_SYSTEM_NAME-$TRAVIS_TAG.fw"
     skip_cleanup: true
     on:
-      repo: nerves-project/nerves_system_rpi3
+      repo: evokly/nerves_system_rpi3
       tags: true
   # Copy all build products to S3
   - provider: s3
